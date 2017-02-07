@@ -10,5 +10,10 @@ package My;
  * @author Dulanga Hewagama
  */
 public class Calculator {
+    private int a;
+    private int b;
     
+    public int add(){
+        return a+b;
+    }
 }
